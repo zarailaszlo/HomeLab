@@ -47,7 +47,7 @@ This repository documents the hardware setup and network infrastructure of my ho
 - **RAM**: 8GB *(upgraded)*  
 - **Storage**: 2 × 2TB HDD  
 - **Purpose**:  
-  - **Torrent** automation (automatic downloads)  
+  - **Torrent** (automatic downloads)  
   - Stores **most of the media files used by Plex**
 
 ---
@@ -72,7 +72,7 @@ This repository documents the hardware setup and network infrastructure of my ho
 | Nova4      | Home Assistant instance                                     |
 | FluxMini   | Virtualization (Proxmox), VM testing / experimentation       |
 | FluxNas    | Data storage, light VM hosting, Plex Media Server            |
-| FluxZima   | Torrent automation, primary Plex media file storage location |
+| FluxZima   | Torrent, automation, primary Plex media file storage location |
 
 ---
 
