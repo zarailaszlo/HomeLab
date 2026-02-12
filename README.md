@@ -6,6 +6,10 @@ This repository documents the hardware setup and network infrastructure of my ho
 
 ## 🖥️ Devices & Roles
 
+### 🔹 NovaZero *(Raspberry Pi Zero 2 W)*
+
+- **Purpose**: Runs a **Wake-on-LAN server status** and **open-port report** website
+
 ### 🔹 Nova5 *(Raspberry Pi 5 – 8GB)*
 
 - Fan + SSD HAT  
@@ -25,7 +29,7 @@ This repository documents the hardware setup and network infrastructure of my ho
 - 512GB SATA SSD  
 - **Purpose**: Running **Proxmox VE**  
   - Hosts both Windows and Linux virtual machines  
-  - Main server for **Plex Media Server**
+  - Dedicated to **VM testing / experimentation**
 
 ### 🔹 FluxNas *(QNAP TS-264-8G)*
 
@@ -35,7 +39,16 @@ This repository documents the hardware setup and network infrastructure of my ho
 - **Storage**: 2 × 4TB HDD  
 - **Purpose**:  
   - Primary **data storage**  
+  - Runs **Plex Media Server**  
   - Hosts a few lightweight **Linux VMs** for auxiliary tasks
+
+### 🔹 FluxZima *(ZimaBlade 3760 – SBC module)*
+
+- **RAM**: 8GB *(upgraded)*  
+- **Storage**: 2 × 2TB HDD  
+- **Purpose**:  
+  - **Torrent** automation (automatic downloads)  
+  - Stores **most of the media files used by Plex**
 
 ---
 
@@ -52,12 +65,14 @@ This repository documents the hardware setup and network infrastructure of my ho
 
 ## 🛠️ Usage Overview
 
-| Device     | Functionality                                 |
-|------------|-----------------------------------------------|
-| Nova5      | Automation scripts, scrapers                 |
-| Nova4      | Home Assistant instance                      |
-| FluxMini   | Virtualization (Proxmox), Plex server        |
-| FluxNas    | Data storage, light VM hosting               |
+| Device     | Functionality                                              |
+|------------|-------------------------------------------------------------|
+| NovaZero   | Wake-on-LAN server status + open-port report website        |
+| Nova5      | Automation scripts, scrapers                                |
+| Nova4      | Home Assistant instance                                     |
+| FluxMini   | Virtualization (Proxmox), VM testing / experimentation       |
+| FluxNas    | Data storage, light VM hosting, Plex Media Server            |
+| FluxZima   | Torrent automation, primary Plex media file storage location |
 
 ---
 
@@ -67,6 +82,7 @@ This repository documents the hardware setup and network infrastructure of my ho
 - Smart home automation (Home Assistant)  
 - Web scraping and background automation  
 - Personal media server (Plex)  
+- Automated media acquisition (torrent automation)  
 - Redundant and scalable file storage  
 - Experimentation with virtualization and networking  
 
@@ -80,4 +96,4 @@ This repository documents the hardware setup and network infrastructure of my ho
 
 ## 📅 Last Updated
 
-**July 2025**
+**February 2026**
