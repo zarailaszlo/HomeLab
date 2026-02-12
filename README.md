@@ -93,6 +93,26 @@ This repository documents the hardware setup and network infrastructure of my ho
 ![Network Diagram](images/network.png)
 
 ---
+## history
+
+| **2019-01** | **2020-04** |
+|:--:|:--:|
+| <img src="images/2019-01.JPEG" alt="2019-01" width="360"> | <img src="images/2020-04.JPEG" alt="2020-04" width="360"> |
+
+| **2023-12** | **2024-01** |
+|:--:|:--:|
+| <img src="images/2023-12.JPEG" alt="2023-12" width="360"> | <img src="images/2024-01.JPEG" alt="2024-01" width="360"> |
+
+| **2024-05** | **2024-10** |
+|:--:|:--:|
+| <img src="images/2024-05.JPEG" alt="2024-05" width="360"> | <img src="images/2024-10.JPEG" alt="2024-10" width="360"> |
+
+| **2025-07** |  |
+|:--:|:--:|
+| <img src="images/2025-07.JPEG" alt="2025-07" width="360"> |  |
+
+
+---
 
 ## 📅 Last Updated
 
